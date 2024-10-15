@@ -1,15 +1,25 @@
-// src/modules/document/document.repository.ts
-import { Document } from "../../database/models/Document";
+// import { Document } from "../../database/models/Document";
 
-export const getDocumentById = async (id: string) => {
-  return await Document.findById(id);
-};
+// export const getAllDocuments = async () => {
+//   return await Document.find();
+// };
 
-export const saveDocument = async (id: string, content: string) => {
-  return await Document.findByIdAndUpdate(id, { content }, { new: true });
-};
+// export const getDocumentById = async (id: string) => {
+//   return await Document.findById(id);
+// };
 
-export const createDocument = async (content: string) => {
-  const newDocument = new Document({ content });
-  return await newDocument.save();
-};
+
+// export const saveDocument = async (id: string, content: string) => {
+//   return await Document.findByIdAndUpdate(id, { content }, { new: true });
+// };
+
+// export const createDocument = async (content: string) => {
+//   const newDocument = new Document({ content });
+//   return await newDocument.save();
+// };
+
+// export const deleteDocument = async (id: string) => {
+//   return await Document.findByIdAndDelete(id);
+// }
+
+

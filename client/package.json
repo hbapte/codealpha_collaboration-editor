@@ -3,6 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@lexical/react": "^0.16.1",
+    "@liveblocks/client": "^2.7.2",
+    "@liveblocks/react": "^2.7.2",
+    "@liveblocks/react-lexical": "^2.7.2",
+    "@liveblocks/react-ui": "^2.7.2",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -10,18 +15,22 @@
     "@types/node": "^16.18.108",
     "@types/react": "^18.3.9",
     "@types/react-dom": "^18.3.0",
-    "@lexical/react": "^0.16.1",
-    "@liveblocks/client": "^2.7.2",
-    "@liveblocks/react": "^2.7.2",
-    "@liveblocks/react-lexical": "^2.7.2",
-    "@liveblocks/react-ui": "^2.7.2",
+    "bcryptjs": "^2.4.3",
+    "js-cookie": "^3.0.5",
     "lexical": "^0.16.1",
+    "quill-cursors": "^2.3.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-quill": "^2.0.0",
+    "react-router-dom": "^6.26.2",
     "react-scripts": "5.0.1",
+    "socket.io-client": "^4.8.0",
     "typescript": "^4.9.5",
-    "web-vitals": "^2.1.4"
-
+    "uuid": "^10.0.0",
+    "web-vitals": "^2.1.4",
+    "y-quill": "^1.0.0",
+    "y-websocket": "^2.0.4",
+    "yjs": "^13.6.19"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -46,5 +55,12 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/js-cookie": "^3.0.6",
+    "@types/jsonwebtoken": "^9.0.7",
+    "@types/uuid": "^10.0.0",
+    "tailwindcss": "^3.4.13"
   }
 }
